@@ -28,7 +28,7 @@ const configurations: { [env: string]: Configuration } = {
     networkName: 'HECO Testnet',
     ftmscanUrl: 'https://testnet.hecoinfo.com',
     defaultProvider: 'https://http-testnet.hecochain.com/',
-    deployments: require('./bomb-finance/deployments/deployments.mainnet.json'),
+    deployments: require('./bomb-finance/deployments/deployments.testing.json'),
     externalTokens: {
       WHT: ['0x2fa18373f4D63aE231e60E50c1D39Ba0bD3F75DA', 18],
       FUSDT: ['0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18], // This is actually BUSD on mainnet not fusdt
