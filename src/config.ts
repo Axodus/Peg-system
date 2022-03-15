@@ -24,13 +24,13 @@ const configurations: { [env: string]: Configuration } = {
   //   refreshInterval: 10000,
   // },
   development: {
-    chainId: 56,
-    networkName: 'BSC Mainnet',
-    ftmscanUrl: 'https://bscscan.com',
-    defaultProvider: 'https://bsc-dataseed.binance.org/',
+    chainId: 256,
+    networkName: 'HECO Testnet',
+    ftmscanUrl: 'https://testnet.hecoinfo.com',
+    defaultProvider: 'https://http-testnet.hecochain.com/',
     deployments: require('./bomb-finance/deployments/deployments.mainnet.json'),
     externalTokens: {
-      WBNB: ['0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18],
+      WHT: ['0x2fa18373f4D63aE231e60E50c1D39Ba0bD3F75DA', 18],
       FUSDT: ['0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18], // This is actually BUSD on mainnet not fusdt
       BTCB: ['0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18],
       SBTC: ['0x1d28cd41fc594232D05F2AbdAFBb556E7F78Dc2a', 18],
@@ -57,10 +57,10 @@ const configurations: { [env: string]: Configuration } = {
     refreshInterval: 10000,
   },
   production: {
-    chainId: 56,
-    networkName: 'BSC Mainnet',
-    ftmscanUrl: 'https://bscscan.com',
-    defaultProvider: 'https://bsc-dataseed.binance.org/',
+    chainId: 128,
+    networkName: 'Heco Mainnet',
+    ftmscanUrl: 'https://hecoinfo.com',
+    defaultProvider: 'https://http-mainnet.hecochain.com/',
     deployments: require('./bomb-finance/deployments/deployments.mainnet.json'),
     externalTokens: {
       WBNB: ['0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18],
